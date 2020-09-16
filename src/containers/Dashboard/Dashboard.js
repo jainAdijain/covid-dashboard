@@ -1,6 +1,7 @@
 import  React, { Component } from 'react';
 
 import Aux from '../../hoc/Auxiliary';
+import Card from '../../components/Card/Card';
 
 
 class Dashboard extends Component {
@@ -8,7 +9,7 @@ class Dashboard extends Component {
   render() {
     return (
       <Aux>
-        <div>Covid Cases1</div>
+        <Card />
         <div>Covid Cases2</div>
       </Aux>
     );
